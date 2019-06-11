@@ -17,3 +17,14 @@ class solution(object):
           break;
     return ans
     
+#########:
+####################################
+'''solution two'''
+class solution2(object):
+  def faircandyswap(self,a,b):
+    dif = sum(a) - sum(b)
+    a,b = set(a),set(b)
+    for i in a:
+      if i+dif//2 in b:
+        return [i,i+dif//2]
+    return[]
