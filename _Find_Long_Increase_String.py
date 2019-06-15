@@ -10,8 +10,8 @@ class Solution(object):
     cnt = np.ones(len)
     max_len = 1
     res = 0
-    for (i = 0, i < len, i++):
-      for (j = 0, j < i, j++):
+    for i in range(len):
+      for j in range(i):
         if (nums[i] > nums[j]):
           if (length[i] == length[j] + 1):
             cnt[i] += cnt[j]
@@ -20,7 +20,7 @@ class Solution(object):
             cnt[i] = cnt[j]
       max_len = max(max_len, length[i])
       
-    for (i = 0, i < len, i++):
+    for i in range(len):
       if (length[i] == max_len)
         res += cnt[i]
     return res
