@@ -2,6 +2,8 @@
 input:[1,3,5,4,7]
 
 output:2---[1,3,5,7] & [1,,3,4,7]
+
+https://blog.csdn.net/qq_37108878/article/details/85705088
 '''
 class Solution(object):
   def findLIS(self,num):
