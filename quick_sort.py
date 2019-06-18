@@ -1,3 +1,8 @@
+'''
+https://www.jianshu.com/p/2b2f1f79984e
+'''
+
+
 class solution(object):
   def quick_sort(start,end,arr):
     if star < end:
