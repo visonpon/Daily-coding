@@ -1,11 +1,8 @@
 '''
 题目描述：
 Alis和Bob有不同大小的糖果棒：A[i] 是爱丽丝拥有的第 i 块糖的大小，B[j] 是鲍勃拥有的第 j 块糖的大小。
-
 他们想交换一个糖果棒，使得都有相同的糖果总量。（一个人拥有的糖果总量是他们拥有的糖果棒大小的总和。）
-
 要求返回一个整数数组 ans，其中 ans[0] 是爱丽丝必须交换的糖果棒的大小，ans[1] 是 Bob 必须交换的糖果棒的大小。
-
 如果有多个答案，你可以返回其中任何一个，保证答案存在。
 '''
 
@@ -29,9 +26,7 @@ class solution(object):
           break;
     return ans
     
-#########:
-####################################
-'''solution two'''
+#solution two
 class solution2(object):
   def faircandyswap(self,a,b):
     dif = sum(a) - sum(b)
