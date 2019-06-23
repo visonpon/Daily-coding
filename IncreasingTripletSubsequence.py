@@ -1,5 +1,6 @@
 '''
 Find a triplet subsequence in an array
+solution:线性扫描数组，如果小于等于first,赋值给first，如果小于等于second，赋值给second，如果没地方赋值了，说明递增序列中的第三个找到了
 '''
 class solution(obejct):
   def triplet(self,arr):
