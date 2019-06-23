@@ -3,7 +3,7 @@
 你的算法时间复杂度必须是 O(log n) 级别，如果数组中不存在目标值，返回 [-1, -1]。
 '''
 
-#二分查找
+#二分查找&双指针
 class solution(object):
   def search(self,a,target):
     if len(a)==0:
