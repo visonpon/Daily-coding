@@ -5,7 +5,6 @@ https://blog.csdn.net/PKU_Jade/article/details/77925814
 '''
 class Solution(object):
     def longestConsecutive(self, nums):
-
         n = len(nums)
         d = {}
         ans = 0
