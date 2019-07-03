@@ -13,3 +13,16 @@ class soultion(obejct):
       list.append(sum)
       
       
+class solution2(object):
+  def product(self,arr):
+    output = [1]
+    for i in range(len(arr)-1):
+      output.append(ouput[-1]*arr[i])
+      
+    right = 1
+    for j in range(len(arr)-1,-1,-1):
+      output[i] = right*output[i]
+      right *=num[i]
+    
+    return output
+      
